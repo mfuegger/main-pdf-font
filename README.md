@@ -28,4 +28,4 @@ python pdf2font.py /path/to/pdfs --pt 12.0
 python pdf2font.py -h
 ```
 
-The script intelligently detects whether the argument is a file or directory and acts accordingly. When analyzing multiple PDFs, font sizes below the threshold (default 10pt) are highlighted in red.
+The script detects whether the argument is a file or directory and acts accordingly. When analyzing multiple PDFs, font sizes below the threshold (default 10pt) are highlighted in red.
